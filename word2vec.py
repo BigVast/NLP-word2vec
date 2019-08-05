@@ -2,6 +2,10 @@
 import jieba
 import jieba.analyse
 
+from time import *
+
+begin_time = time()
+
 jieba.suggest_freq('沙瑞金', True)
 jieba.suggest_freq('田国富', True)
 jieba.suggest_freq('高育良', True)
@@ -56,3 +60,9 @@ for key in model.wv.similar_by_word('沙瑞金',topn =20):   #20是设置每个�
         print (key[0], key[1])
         if req_count == 0:
             break;
+
+end_time = time()
+run_time = end_time-begin_time
+print(run_time)
+
+#返回的时间单位是秒
