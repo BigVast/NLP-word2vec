@@ -1,4 +1,4 @@
-# Notice! This modle needs training. It will cost some time according the size of texts.
+# Notice! This model needs training. It will cost some time according the size of texts.
 
 ## This code from website, if have any questions, please connect me to solve.
 
